@@ -39,25 +39,23 @@ function lstringRev(){
 
 //Using recursion
 
-function rstringRev(){
 
-	var name = promptName();
-	var newString = "";
-
-	if(name === ""){
+function rstringRev(name){
+	
+	if(name == ""){
 		return "";
 	}
 	else{
-		 newString = rstringRev(name.substr(1)) + name.charAt(0);
-	//	document.body.innerHTML= "<h3> Recursion:  " + newString + "</h3>";
+
+	return rstringRev(name.substr(1)) + name[0];
+
 	}
-
-
-  //newString = name === "" ? "" : rstringRev(name.substr(1)) + name.charAt(0);
-
-	document.body.innerHTML= "<h3> Recursion:  " + newString + "</h3>";
-
-	console.log(newString);
 
 }
 
+function printRecusionstr(){
+
+var name = prompt("Enter your name to reverse");
+
+return document.body.innerHTML= "<h3> Recursion:  "+ rstringRev(name) + "</h3>";
+}
