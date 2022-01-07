@@ -42,7 +42,7 @@ function lstringRev(){
 
 function rstringRev(name){
 	
-	if(name == ""){
+	if(name === ""){
 		return "";
 	}
 	else{
