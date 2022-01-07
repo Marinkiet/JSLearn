@@ -1,0 +1,31 @@
+*{
+	margin: initial;
+}
+h1,h2{
+	font-family: cursive;
+	justify-items: center;
+	color: darkgrey;
+	margin-left: 30px;
+	margin-top: 20px;
+	display-flex: column;
+	margin-bottom: 10px;
+}
+body{
+		background-color: whitesmoke;
+
+}
+hr{
+	color: darkgrey;
+}
+h3{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.btnRevClass{
+	color: black;
+	background-color: lime;
+	margin-left: 30px;
+	margin-top: 20px;
+	display-flex: column;
+	margin-bottom: 10px;
+}
